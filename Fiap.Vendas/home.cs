@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Fiap.Vendas
 {
-    public partial class Inicio : Form
+    public partial class home : Form
     {
-        public Inicio()
+        public home()
         {
             InitializeComponent();
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
         }
     }
 }

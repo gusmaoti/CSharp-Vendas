@@ -31,7 +31,7 @@ namespace Fiap.Vendas
         {
             if (username == "Fiap" && password == "2025")
             {
-                Inicio telaInicio = new Inicio();
+                home telaInicio = new home();
                 telaInicio.Show();
             }
             else
